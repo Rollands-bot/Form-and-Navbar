@@ -1,0 +1,18 @@
+Cara menuliskan styling :
+Inline – menuliskan perintah CSS langsung pada elemen HTML.
+Internal – menuliskan perintah CSS di bagian <head> HTML.
+Eksternal – menuliskan perintah CSS pada file yang berbeda (eksternal)
+
+
+CSS HIERARCHY -> Spesifikasi pemilihan kategori dalam css.
+- Inline CSS (priority)
+- ID selector
+- Class selector
+- Tag (html) selector
+
+
+input:focus {
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+}
